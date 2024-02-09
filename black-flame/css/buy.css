@@ -1,0 +1,442 @@
+:root
+{
+  --font-size: 14px; /* Define a CSS variable */
+  --text-color: #333;
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+
+}
+.container
+{
+  display: flex;
+  justify-content: space-around;
+
+}
+.navbar-nav
+{
+  padding: 8px;
+  position: sticky;
+}
+
+.navbar
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.middle-menu .navbar-nav ul a
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-nav
+{
+  display: flex;
+  gap: 5rem;
+}
+
+.search
+{
+  border-radius: 8px;
+  background-color: rgb(241, 241, 241);
+}
+.search button, .search input
+{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.search-icon
+{
+  padding: 8px;
+}
+
+
+.icon
+{
+  width: 15rem;
+  justify-content: space-around;
+  display: flex;
+}
+.profile, .profile a
+{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.color
+{
+  background: rgb(241, 241, 241);
+}
+.fav-color-tshirt
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+/*body*/
+body
+{
+    background-color: #FAFAFA;
+}
+
+/*buy product images*/
+
+.buy-product
+{
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+}
+.product-imgs
+{
+    background-color: #FAFAFA;
+    padding: 24px;
+gap: 16px;
+}
+.small-img
+{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.small-img img
+{
+    width: 115px;
+    border: solid #DEE2E7 1px;
+    border-radius: 8px;
+}
+
+.big-img img
+{
+border: solid #EFF2F4 3px;
+border-radius: 16;
+width: 500px;
+height: auto;
+}
+
+
+/*Product details*/
+.buy-product
+{
+    border: solid #FAFAFA 2px;
+    border-radius: 24px;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+.product-details
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.rating
+{
+    display: flex;
+    justify-content: left;
+}
+.price
+{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+}
+.product-description
+{
+    margin: 0;
+}
+.product-information
+{
+    gap: 16px;
+}
+
+.qty-size
+{
+    justify-content: space-between;
+    width: 300px;
+    gap: 16px;
+}
+
+.qty-size .qty
+{
+    align-items: center;
+    gap: 16px;
+}
+
+.qty .number
+{
+    padding: 4px 8px 4px 8px;
+    border: solid #828282 2px;
+}
+
+.line
+{
+    width: 20px;
+    height: auto;
+    background-color: #828282;
+}
+
+.size
+{
+    align-items: center;
+    gap: 16px;
+}
+
+.size select
+{
+    padding: 4px 8px 4px 8px;
+    border: solid #828282 2px;
+}
+
+.btns
+{display: flex;
+    width: 310px;
+    justify-content: space-between;
+}
+.btns button
+{
+padding:  15px 30px  15px 30px;
+border-radius: 8px;
+}
+
+.buy
+{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/*card section*/
+
+
+.card a
+{
+text-decoration: none;
+color: black;
+}
+.men-product-card
+{
+padding-top: 5rem;
+padding-bottom: 5rem;
+}
+.women-product-card
+{
+padding-bottom: 5rem;
+}
+
+
+.rating
+{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 24px;
+  gap: 8px;
+}
+.price-rating
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card i
+{
+  color: orange;
+}
+
+.rating p
+{
+  padding-top: 1rem;
+}
+
+
+ /* Subscrib */
+
+.Subscrib
+{
+  background-color: rebeccapurple;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+}
+.Subscrib input
+{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.Subscrib div
+{
+  padding: 12px;
+}
+.sub
+{
+  display: flex;
+  gap: 10px;
+}
+.sub .btn
+{
+  color: white;
+  background-color: rgb(0, 94, 255);
+}
+
+
+.seach-icon
+{
+  padding: 16px;
+  background-color: rebeccapurple;
+}
+
+ /* top-footer middle app logo */
+
+.right-footer
+{
+  width: 200px;
+}
+.social-media ul
+{
+  display: flex;
+  gap: 50px;
+}
+
+ .app-logo
+ {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+ .footer
+ {
+  display: flex;
+  flex-direction: column;
+ }
+ .top-footer
+ {
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+
+
+
+
+
+ /*Mobile responsive*/
+
+
+
+
+    @media only screen and (max-width: 600px) {
+  
+
+        .buy-product
+        {
+          display: flex;
+          flex-direction: column;
+        }
+        .product-imgs
+        
+        {
+          width: 100%;
+          display: flex;
+          flex-direction: column-reverse;
+
+          
+        }
+        
+     .small-img
+     {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+     }
+
+     .small-img img
+     {
+      width: 60px;
+      display: flex;
+      text-align: center;
+      align-items: center;
+     }
+
+
+     .big-img img
+     {
+      width: 100%;
+     }
+     .btns
+     {
+margin-top: 1rem;
+
+     }
+
+       .hero .hero-banner img {
+          width: 100vw;
+        }
+        .navbar-brand
+        {
+          padding: 0 10px 0 0;
+        }
+
+        .men-product-card 
+        {
+          padding-top: 1rem;
+        }
+  
+        .top-footer {
+          display: flex;
+          flex-direction: column;
+          flex-direction: reverse;
+          margin-top: 50px;
+        }
+        .top-footer:last-child {
+          z-index:-2;
+        }
+  
+        .top-footer .footer-right img {
+          width: 350px;
+          height: auto;
+          position: absolute;
+        }
+  
+        .app-logo {
+          width: 10px;
+          display: flex;
+          flex-direction: row;
+          padding: 10px 0px 20px 0px;
+  
+        }
+  
+        /* top-footer middle app logo */
+  
+  
+  
+      }

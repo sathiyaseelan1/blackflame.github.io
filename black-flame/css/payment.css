@@ -1,0 +1,372 @@
+:root
+{
+  --font-size: 14px; /* Define a CSS variable */
+  --text-color: #333;
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+
+}
+.container
+{
+  display: flex;
+  justify-content: space-around;
+
+}
+.navbar-nav
+{
+  padding: 8px;
+  position: sticky;
+}
+
+.navbar
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.middle-menu .navbar-nav ul a
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-nav
+{
+  display: flex;
+  gap: 5rem;
+}
+
+.search
+{
+  border-radius: 8px;
+  background-color: rgb(241, 241, 241);
+}
+.search button, .search input
+{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.search-icon
+{
+  padding: 8px;
+}
+
+
+.icon
+{
+  width: 15rem;
+  justify-content: space-around;
+  display: flex;
+}
+.profile, .profile a
+{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.color
+{
+  background: rgb(241, 241, 241);
+}
+.fav-color-tshirt
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+/*body*/
+.payment-choice
+{
+  background-color: #FAFAFA;
+}
+
+
+.payment-details
+{
+  border-radius: 16px;
+  background-color: white;
+  padding: 24px;
+margin: 50px 0px 50px 0px;
+    justify-content: space-between;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+
+
+
+/*Prodcut images*/
+
+.product-price-img
+{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+    border: solid #D9D9D9 2px;
+    border-radius: 20px;
+}
+
+
+/*Summery Price*/
+
+
+.product-price-img img
+{
+    border-radius: 20px;
+}
+.order-summery
+{
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px;
+    border-top: solid #D9D9D9 2px;
+}
+.detailed-price
+{
+    justify-content: space-between;
+}
+.details-left
+{
+  text-align: start;
+}
+.details-right
+{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}
+.divide-line
+{
+    height: 2px;
+    width: auto;
+    background-color: gray;
+}
+.total-price
+{
+    justify-content: space-between;
+}
+
+/*Summery Price*/
+
+
+.address-details
+{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.place
+{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.address-input
+{
+    width: 100%;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.address-input input, select
+{
+    padding: 8px;
+    border-radius: 5px;
+    border: solid #BDC1C8 1px;
+    outline: none;
+}
+
+.save-address button
+{
+    width: 100%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+
+/*payment Options*/
+.pay-details
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 24px;
+}
+.enter-pay
+{
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #F5F5F5;
+  padding: 24px;
+  height: 100%;
+}
+.pay-option
+{
+  gap: 8px;
+  justify-content: space-between;
+}
+.pay-option img
+{
+  height: auto;
+  width: 100%;
+ border: solid #D9D9D9 1px;
+ border-radius: 8px;
+}
+.payment-option
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+
+
+
+/*Need Help*/
+.second-section
+{
+  background-color: #EFF2F4;
+
+}
+.need-help
+{
+  text-align: center;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+ /* top-footer middle app logo */
+
+.right-footer
+{
+  width: 200px;
+}
+.social-media ul
+{
+  display: flex;
+  gap: 50px;
+}
+
+ .app-logo
+ {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+ .footer
+ {
+  display: flex;
+  flex-direction: column;
+ }
+ .top-footer
+ {
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+
+
+
+
+
+ /*Mobile responsive*/
+
+
+
+
+    @media only screen and (max-width: 600px) {
+
+
+.payment-details
+{
+  display: flex;
+  flex-direction: column;
+}
+.product-price-img
+{
+  width: 100%;
+}
+.product-img
+{
+  align-items: center;
+  text-align: center;
+}
+.pay-option
+{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 8px;
+}
+.pay-option img
+{
+    width: 31%;
+    height: auto;
+}
+        /*Footer*/
+        .top-footer {
+          display: flex;
+          flex-direction: column;
+          flex-direction: reverse;
+          margin-top: 50px;
+        }
+        .top-footer:last-child {
+          z-index:-2;
+        }
+  
+        .top-footer .footer-right img {
+          width: 350px;
+          height: auto;
+          position: absolute;
+        }
+  
+        .app-logo {
+          width: 10px;
+          display: flex;
+          flex-direction: row;
+          padding: 10px 0px 20px 0px;
+  
+        }
+  
+        /* top-footer middle app logo */
+  
+  
+  
+      }

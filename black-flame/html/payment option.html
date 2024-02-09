@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/payment.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/css/font-awsome.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="/js/bootstrap.bundle.js" async></script>
+
+    <title>E-Commer</title>
+</head>
+
+<!--Header-->
+<header class="navbar-nav">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class=" nav container">
+
+
+            <a class="navbar-brand" href="./index.html"><img src="/Assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="right-nav">
+                    <form class="search d-flex">
+                        <div class="search-icon"><i class="fa fa-search"></i></div>
+                        <input class="search-input" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <div class="icon">
+                        <div class="profile">
+                            <a href=""> <i class="fa-solid fa-user "></i></a>
+                            <a href="">Profile</a>
+                        </div>
+                        <div class="profile">
+                            <a href=""> <i class="fa-solid fa-heart "></i></a>
+                            <a href="">Order</a>
+                        </div>
+                        <div class="profile">
+                            <a href=""> <i class="fa-solid fa-shopping-cart "></i></a>
+                            <a href="">My cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+</header>
+
+<!--body-->
+
+
+<body>
+
+<div class="payment-choice">
+<main class="container">
+    <div class="payment-details">
+        <div class="product-price-img">
+            <div class="product-img">
+                <img src="/Assets/bl-m-1.jpg" alt="">
+                <div class="order-summery">
+                    <div class="price-details">
+                        <h6>Order Summery</h6>
+                        <div class="detailed-price d-flex">
+                            <div class="details-left">
+                                <p>item:</p>
+                                <p>In.Tex:</p>
+                                <p>Delivery:</p>
+                            </div>
+                            <div class="details-right">
+                                <p>$18</p>
+                                <p>$09</p>
+                                <p>Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divide-line"></div>
+                    <div class="total-price d-flex">
+                        <h5>Total</h5>
+                        <h5>$27.00</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="address-details">
+            <h4>Address</h4>
+            <div class="place d-flex">
+                <div class="home">
+                    <input type="radio" placeholder="Home">
+                    <label for="input">Home</label>
+                </div>
+                <div class="office">
+                    <input type="radio" placeholder="Office">
+                    <label for="input">Office</label>
+                </div>
+                <div class="Shop">
+                    <input type="radio" placeholder="Shop">
+                    <label for="input">Shop</label>
+                </div>
+            </div>
+            <div class="address-input">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Mobile Number">
+                <input type="text" placeholder="Address">
+                <input type="text" placeholder="Pin Code">
+                <select class="State" id="State" placeholder="State">
+                    <option value="tn">Tamil Nadu</option>
+                    <option value="ap">Andhra Pradesh</option>
+                    <option value="acp">Arunachal Pradesh</option>
+                    <option value="Ass">Assam</option>
+                    <option value="bi">Bihar</option>
+                    <option value="chat">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                  </select>
+                  <select class="State" id="State" placeholder="State">
+                    <option value="tn">Tamil Nadu</option>
+                    <option value="ap">Andhra Pradesh</option>
+                    <option value="acp">Arunachal Pradesh</option>
+                    <option value="Ass">Assam</option>
+                    <option value="bi">Bihar</option>
+                    <option value="chat">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                  </select>
+            </div>
+            <div class="save-address">
+                <a href=""><button>Save Address</button></a>
+            </div>
+        </div>
+        <div class="pay-details">
+            <h4>Payment Option</h4>
+            <div class="enter-pay">
+                <div class="pay-option d-flex">
+                    <img src="/Assets/gpay.png" alt="">
+                    <img src="/Assets/phone.png" alt="">
+                    <img src="/Assets/paytm.png" alt="">
+                </div>
+                <div class="payment-option">
+                    <div class="home">
+                        <input type="radio" placeholder="Home">
+                        <label for="input">Credit Card</label>
+                    </div>
+                    <div class="office">
+                        <input type="radio" placeholder="Office">
+                        <label for="input">Net Banking</label>
+                    </div>
+                    <div class="Shop">
+                        <input type="radio" placeholder="Shop">
+                        <label for="input">Cash On delivery</label>
+                    </div>
+                </div>
+            </div>
+                <div class="save-address">
+                    <a href=""><button>Save Address</button></a>
+                </div>
+            </div>
+        </div>
+</main>
+</div>
+
+<div class="second-section">
+<div class="need-help container">
+    <div class="heading">
+    <h1>Need Help?</h1>
+</div>
+<div class="paragraph">
+    <p>
+        Check our help pages or contact us
+        When your order is placed, we'll send you an e-mail message acknowledging receipt of your order. If you choose to pay using an electronic payment method (credit card, debit card or net banking), you will be directed to your bank's website to complete your payment. Your contract to purchase an item will not be complete until we receive your electronic payment and dispatch your item. If you choose to pay using Pay on Delivery (POD), you can pay using cash/card/net banking when you receive your item.
+        See Amazon.in's Return Policy.</p>
+    </div>
+</div>
+</div>
+    <!-- Footer section -->
+
+
+    <footer class="footer container">
+        <div class="top-footer d-flex">
+            <div class="right-footer">
+                <div class="footer-logo">
+                    <a class="navbar-brand" href="#"><img src="/Assets/logo.png" alt=""></a>
+                </div>
+                <div class="describtion">
+                    <p>Best information about the company gies here but now lorem ipsum is</p>
+                </div>
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+
+            <div class="middle-menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="middle-app">
+                <p>Get the App</p>
+                <div class="app-logo d-flex">
+                    <img src="/Assets/market-button.png" alt="">
+                    <img src="/Assets/market-button-1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+</body>
